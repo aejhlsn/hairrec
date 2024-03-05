@@ -1,0 +1,31 @@
+{% extends 'basis.html' %}
+
+{% block body %}
+    <div class="profile-cont">
+        <span class="profile-hd"> Profile </span>
+        <div class="pr-details-cont">
+            <img src="data:image/jpeg;base64,{{img}}" style="width: 140px; height: 120px; border-radius: 30px;"alt="">
+            <div class="pr-labels">
+                <div class="lbl-cont"> 
+                    <span> Hair Type</span>
+                    <span> Straight </span>
+                </div>
+                <div class="lbl-cont"> 
+                    <span> Facial Type</span>
+                    <span> Oblong </span>
+                </div>
+                <div class="lbl-cont"> 
+                    <span> Sex</span>
+                    <span> Oblong </span>
+                </div>
+            </div>
+        </div>
+
+        <span class="reco-hd"> Recommended Hairstyle </span>
+        <div class="reco-det-cont">
+            <span class="reco-name"> Lorem Ipsum </span>
+            <p class="reco-about"> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.  </p>
+        </div>
+
+    </div>
+    {% endblock %}

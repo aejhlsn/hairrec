@@ -1,0 +1,119 @@
+/* GENERAL PROPERTIES */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Lexend:wght@100..900&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Roboto:wght@100;400&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+
+:root{
+    --primary-color: #18212F;
+    --secondary-color: white;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+/* ELEMENT PROPERTIES */
+
+.cam-holder{
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.webcam-holder{
+    width: 43rem;
+    height: 30rem;
+    border-radius: 30px;
+}
+
+.cam-btn-holder{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding-left: 25rem;
+    width: 693px;
+}
+
+/* INDEX PROPERTIES */
+
+.sx-cont{
+    margin-left: 2rem;
+    display: block;
+    float: inline-start;
+}
+
+.sx-labls{
+    display: flex;
+    flex-direction: row;
+}
+
+.cam-btn{
+    margin-left: 25rem;
+}
+
+.choice-cont{
+    display: flex;
+    margin-left: 1.5rem;
+    flex-direction: row;
+}
+
+/* PAGE PROPERTIES */
+
+/* PROFILE SECTION */
+
+.profile-cont{
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+
+.profile-hd, .reco-hd{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pr-details-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    border: 3px solid white;
+    width: max-content;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 30px;
+   
+}
+
+.pr-labels{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.lbl-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3.6rem;
+}
+
+/* RECOMMENDED SECTION */
+
+.reco-hd{
+    display: block;
+    margin-top: 2rem;
+}
+
+
+.reco-det-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border: 3px solid white;
+    width: max-content;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 30px;
+}
+
+.reco-about{
+    width: 36rem
+}

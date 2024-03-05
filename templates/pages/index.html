@@ -1,0 +1,27 @@
+{% extends 'basis.html' %}
+
+{% block body %}
+
+<div class="cam-holder"> 
+    <img src="{{ url_for('showCamera')}}" class="webcam-holder" alt="">
+</div>
+<div class="cam-btn-holder">
+    <div class="sx-cont">
+        <span> Sex </span>
+        <div class="sx-labls"> 
+            <span class="choice-cont"> 
+                <input type="radio">
+                <span> Male </span>
+            </span>
+            <span class="choice-cont"> 
+                <input type="radio">
+                <span> Female </span>
+            </span>
+        </div>
+    </div>
+    <div class="wb-container">
+        <a href="/results" style="text-decoration: none;"> <img src="../../static/assets/images/cam_button.svg" class="cam-btn" alt=""> </a>
+    </div>
+</div>
+
+{% endblock %}
